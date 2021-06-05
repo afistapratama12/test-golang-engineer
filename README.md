@@ -4,7 +4,8 @@ for test golang engineer refactory
 ## LOGIC TEST
 - answer about logic test in directory logicTest
 - you can read all answer code in logicFunc/logic.go
-- or you can running all answer test with ```go run main.go```
+- you can running all answer test with ```go run main.go```
+- or can testing all function using ```go test logicFunc/logic.go logicFunc/logic_test.go -v ```
 
 ## JSON MANIPULATION
 - answer about JSON Manipulation test in directory JSONManipulation
