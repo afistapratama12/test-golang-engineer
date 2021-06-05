@@ -32,6 +32,7 @@ func LeapYear(startYear, endYear int) []int {
 	var leapData = []int{}
 
 	for {
+		startYear++
 		if startYear%4 == 0 {
 			for startYear <= endYear {
 				leapData = append(leapData, startYear)
@@ -39,7 +40,6 @@ func LeapYear(startYear, endYear int) []int {
 			}
 			break
 		}
-		startYear++
 	}
 
 	return leapData
